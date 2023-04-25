@@ -4,6 +4,7 @@ urlpatterns=[
     path('',views.index, name="index"),
     path('signup',views.signup, name="signup"),
     path('upload',views.upload, name="upload"),
+    path('profile/<str:pk>',views.profile, name="profile"),     
     path('like-post',views.like_post, name="like-post"),       
     path('signin',views.signin, name="signun"),
     path('logout',views.logout, name="logout"),
