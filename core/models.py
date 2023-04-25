@@ -20,4 +20,9 @@ class Post(models.Model):
     created_at=models.DateTimeField(default=datetime.now)
     no_of_likes=models.IntegerField(default=0)
     def __str__(self):
-        return self.user     
+        return self.user
+class LikePost(models.Model):
+    post_id=models.CharField(max_length=500)
+    username=models.CharField(max_length=100)
+    def __str__(self):
+        return self.username         
