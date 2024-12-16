@@ -39,7 +39,7 @@ This project is a social media application built using Django. The application p
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/social-media-django.git
+   git clone https://github.com/mrsicsasa/social-media.git
    ```
 
 2. Navigate to the project directory:
